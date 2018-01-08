@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/curl -Ss http://www.github.com/ > /tmp/testdocument.html

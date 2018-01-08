@@ -1,0 +1,8 @@
+﻿{
+  "TeamCityProjectById": "/app/rest/projects/id:{0}", // project id string
+  "TeamCityBuildType":  "/app/rest/buildTypes/id:{0}", // project build types
+  "TeamCityBuilds": "/app/rest/buildTypes/id:{0}/builds/?locator=count:25", // Build Type id string
+  "TeamCityBuild": "/app/rest/builds/id:{0}", // Internal build id int
+  "TeamCityChanges": "/app/rest/changes?locator=build:(id:{0})", // internal build id int
+  "TeamCityChange": "/app/rest/changes/id:{0}" // internal change id int
+}

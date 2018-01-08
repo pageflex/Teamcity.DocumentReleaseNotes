@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Steven Molen</Authors>
+    <Company>Pageflex</Company>
+    <Copyright>2018</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Teamcity.DocumentReleaseNotes.Interfaces\Teamcity.DocumentReleaseNotes.Interfaces.csproj" />
+    <ProjectReference Include="..\Teamcity.DocumentReleaseNotes.Models\Teamcity.DocumentReleaseNotes.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,128 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27128.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teamcity.DocumentReleaseNotes.App", "Teamcity.DocumentReleaseNotes\Teamcity.DocumentReleaseNotes.App.csproj", "{AB83830C-6299-432D-B2E8-CB03058E1DE5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0BE40122-2CCC-470C-A986-085E70639DC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Raneto-Docker", "Raneto-Docker", "{C9F13865-30FB-4ADF-AF64-AB6F7DFE59A1}"
+	ProjectSection(SolutionItems) = preProject
+		Raneto-Docker\Dockerfile = Raneto-Docker\Dockerfile
+		Raneto-Docker\readme.md = Raneto-Docker\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{B277CFA0-D4F3-493A-8234-3213502E5E23}"
+	ProjectSection(SolutionItems) = preProject
+		Raneto-Docker\config\config.default.js = Raneto-Docker\config\config.default.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{6D98B222-1E8B-4A1A-8BF1-BFEAF9CA8FA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development", "Development", "{766BB11C-873C-43FA-B808-59716EE7901E}"
+	ProjectSection(SolutionItems) = preProject
+		Raneto-Docker\content\Development\setting-up-developer-environment.md = Raneto-Docker\content\Development\setting-up-developer-environment.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Management", "Management", "{C27D686A-DC04-4FE0-BF2C-94FB7B9160CA}"
+	ProjectSection(SolutionItems) = preProject
+		Raneto-Docker\content\Management\strategy-planning.md = Raneto-Docker\content\Management\strategy-planning.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Miscellaneous", "Miscellaneous", "{936E819F-0AAF-4B80-97B8-629D68A895BB}"
+	ProjectSection(SolutionItems) = preProject
+		Raneto-Docker\content\Miscellaneous\docker-for-datascience-tool-box.md = Raneto-Docker\content\Miscellaneous\docker-for-datascience-tool-box.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operations", "Operations", "{940B7A07-B5AE-4D68-AFB2-686A0E856AF0}"
+	ProjectSection(SolutionItems) = preProject
+		Raneto-Docker\content\Operations\deploying-production-servers.md = Raneto-Docker\content\Operations\deploying-production-servers.md
+		Raneto-Docker\content\Operations\updating-process-for-servers.md = Raneto-Docker\content\Operations\updating-process-for-servers.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{03093EBF-BB4E-4B1D-B073-F92A5D3C37C3}"
+	ProjectSection(SolutionItems) = preProject
+		Raneto-Docker\content\Security\OWASP-guidelines.md = Raneto-Docker\content\Security\OWASP-guidelines.md
+		Raneto-Docker\content\Security\security-hardening-for-infrastructure.md = Raneto-Docker\content\Security\security-hardening-for-infrastructure.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker-Docs", "Docker-Docs", "{C87C1610-C3BC-4BCD-933D-292201887C99}"
+	ProjectSection(SolutionItems) = preProject
+		DockerDocs.md = DockerDocs.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teamcity.DocumentReleaseNotes.Business", "Teamcity.DocumentReleaseNotes.Business\Teamcity.DocumentReleaseNotes.Business.csproj", "{0C164842-E40F-482D-BD89-59132D43979E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teamcity.DocumentReleaseNotes.Models", "Teamcity.DocumentReleaseNotes.Models\Teamcity.DocumentReleaseNotes.Models.csproj", "{6A8A2C18-6AA5-4A9B-8DE0-81C049FE59B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teamcity.DocumentReleaseNotes.Interfaces", "Teamcity.DocumentReleaseNotes.Interfaces\Teamcity.DocumentReleaseNotes.Interfaces.csproj", "{832D8B2D-DC1A-463E-80F2-85EF26902DBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teamcity.DocumentReleaseNotes.Api", "Teamcity.DocumentReleaseNotes.Api\Teamcity.DocumentReleaseNotes.Api.csproj", "{8D231F30-070C-4B31-95C1-E7580CD420CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{5E1EE71E-5624-484B-8EEA-6D9896074FB8}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		Raneto-Docker\readme.md = Raneto-Docker\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cron-Docker", "Cron-Docker", "{4B88C2BB-FA14-4C30-9C06-74B2D3FB851E}"
+	ProjectSection(SolutionItems) = preProject
+		Cron-Docker\Dockerfile = Cron-Docker\Dockerfile
+		Cron-Docker\Readme.md = Cron-Docker\Readme.md
+		Cron-Docker\update-document-with-curl = Cron-Docker\update-document-with-curl
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teamcity.DocumentReleaseNotes.Tests", "Teamcity.DocumentReleaseNotes.Tests\Teamcity.DocumentReleaseNotes.Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB83830C-6299-432D-B2E8-CB03058E1DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB83830C-6299-432D-B2E8-CB03058E1DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB83830C-6299-432D-B2E8-CB03058E1DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB83830C-6299-432D-B2E8-CB03058E1DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE40122-2CCC-470C-A986-085E70639DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE40122-2CCC-470C-A986-085E70639DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE40122-2CCC-470C-A986-085E70639DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE40122-2CCC-470C-A986-085E70639DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C164842-E40F-482D-BD89-59132D43979E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C164842-E40F-482D-BD89-59132D43979E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C164842-E40F-482D-BD89-59132D43979E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C164842-E40F-482D-BD89-59132D43979E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8A2C18-6AA5-4A9B-8DE0-81C049FE59B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8A2C18-6AA5-4A9B-8DE0-81C049FE59B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8A2C18-6AA5-4A9B-8DE0-81C049FE59B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8A2C18-6AA5-4A9B-8DE0-81C049FE59B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832D8B2D-DC1A-463E-80F2-85EF26902DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832D8B2D-DC1A-463E-80F2-85EF26902DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832D8B2D-DC1A-463E-80F2-85EF26902DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832D8B2D-DC1A-463E-80F2-85EF26902DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D231F30-070C-4B31-95C1-E7580CD420CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D231F30-070C-4B31-95C1-E7580CD420CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D231F30-070C-4B31-95C1-E7580CD420CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D231F30-070C-4B31-95C1-E7580CD420CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B277CFA0-D4F3-493A-8234-3213502E5E23} = {C9F13865-30FB-4ADF-AF64-AB6F7DFE59A1}
+		{6D98B222-1E8B-4A1A-8BF1-BFEAF9CA8FA3} = {C9F13865-30FB-4ADF-AF64-AB6F7DFE59A1}
+		{766BB11C-873C-43FA-B808-59716EE7901E} = {6D98B222-1E8B-4A1A-8BF1-BFEAF9CA8FA3}
+		{C27D686A-DC04-4FE0-BF2C-94FB7B9160CA} = {6D98B222-1E8B-4A1A-8BF1-BFEAF9CA8FA3}
+		{936E819F-0AAF-4B80-97B8-629D68A895BB} = {6D98B222-1E8B-4A1A-8BF1-BFEAF9CA8FA3}
+		{940B7A07-B5AE-4D68-AFB2-686A0E856AF0} = {6D98B222-1E8B-4A1A-8BF1-BFEAF9CA8FA3}
+		{03093EBF-BB4E-4B1D-B073-F92A5D3C37C3} = {6D98B222-1E8B-4A1A-8BF1-BFEAF9CA8FA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E132144F-8E46-44E4-AE6C-9E44FCCB046B}
+	EndGlobalSection
+EndGlobal
