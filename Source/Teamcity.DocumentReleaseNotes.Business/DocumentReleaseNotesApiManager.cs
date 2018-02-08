@@ -37,7 +37,9 @@ namespace Teamcity.DocumentReleaseNotes.Business
                 List<string> projects = new List<string>();
                 using (var client = GetClient())
                 {
-                    var response = client.GetAsync(String.Format("{0}/{1}", _baseUrl.TrimEnd('/'), _settingUrl.TrimStart('/'))).GetAwaiter().GetResult();
+                    var url = String.Format("{0}/{1}", _baseUrl.TrimEnd('/'), _settingUrl.TrimStart('/'));
+                    _logger?.LogDebug("Configuration URL: {0}", url);
+                    var response = client.GetAsync(url).GetAwaiter().GetResult();
 
                     response.EnsureSuccessStatusCode();
 
