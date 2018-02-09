@@ -10,10 +10,6 @@ services:
     - "3000:3000"
     volumes:
     - document_data:/data/content
-    networks:
-      my-network:
-        aliases:
-        - raneto-linux
 
   teamcity.documentreleasenotes.api:
     image: teamcity.documentreleasenotes.api
@@ -25,10 +21,6 @@ services:
     volumes:
     - document_data:/app/Documents
     - log_data:/app/Logs
-    networks:
-      my-network:
-        aliases:
-        - teamcity.documentreleasenotes.api
     
   teamcity.documentreleasenotes.app:
     image: teamcity.documentreleasenotes.app
@@ -38,11 +30,6 @@ services:
     volumes:
     - document_data:/app/Documents
     - log_data:/app/Logs
-    networks:
-      my-network:
-        aliases:
-        - teamcity.documentreleasenotes.app
-
 
   cron.update.documents:
     image: cron-update-alpine
@@ -51,15 +38,7 @@ services:
       dockerfile: Dockerfile
     depends_on:
     - teamcity.documentreleasenotes.api
-    networks:
-      my-network:
-        aliases:
-        - cron.update.documents
-      
 
 volumes:
   document_data:
   log_data:
-
-networks:
-  my-network: null
