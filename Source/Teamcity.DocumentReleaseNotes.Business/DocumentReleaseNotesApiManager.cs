@@ -14,9 +14,9 @@ namespace Teamcity.DocumentReleaseNotes.Business
         private readonly IConfigurationManager _mgr;
         private readonly string _settingUrl = "/Settings/GetConfiguredProjects";
         private readonly string _configApiKey = "ConfiguredProjectsApiUrl";
-        private readonly string _baseUrl = "http://Teamcity.documentreleasenotes.api/api/"; //Docker Compose Service URL
+        private readonly string _baseUrl = "http://teamcity.documentreleasenotes.api/api/"; //Docker Compose Service URL
 
-        public DocumentReleaseNotesApiManager(IConfigurationManager cMgr, ILogger logger = null)
+        public DocumentReleaseNotesApiManager(IConfigurationManager cMgr, ILogger<DocumentReleaseNotesApiManager> logger = null)
         {
             try
             {

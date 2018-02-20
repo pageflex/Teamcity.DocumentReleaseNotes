@@ -57,6 +57,7 @@ namespace Teamcity.DocumentReleaseNotes
             builder.RegisterType<DocumentFormatterProvider>().As<IDocumentFormatterProvider>();
             builder.RegisterType<ProjectService>().As<IProjectService>();
             builder.RegisterType<ProjectListProvider>().As<IProjectListProvider>();
+            builder.RegisterType<DocumentReleaseNotesApiManager>().As<IDocumentReleaseNotesApiManager>();
 
 
 
