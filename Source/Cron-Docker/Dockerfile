@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-ENV ApiUrl="http://Teamcity.documentreleasenotes.api/api/ReleaseNotes/Create"
+ENV ApiUrl="http://teamcity.documentreleasenotes.api/api/ReleaseNotes/Create"
 
 # Add curl for later use
 RUN apk --no-cache add curl

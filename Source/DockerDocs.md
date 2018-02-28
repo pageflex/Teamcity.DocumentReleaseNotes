@@ -22,7 +22,7 @@ I found it more useful though to run things from the command line, however both 
 For running from the command line, "Terminal Window" under "other windows" in vs.net is your best friend. I personally use this as well as an external Powershell window to compose and to monitor stuff.
 just remember when you bring up your app to use the -d if you don't want to see the tails and --build is your friend if you made changes to the code base
 ## Docker Lifecycle
-Docker containers only run as long as necessary. So if you provide a DLL as an entry point, it will only run the container as long as it takes that DLL to do it's work and exit. You can tell if a container is still running by using the docker ps command.
+Docker containers can either run as "long-running services" or only run as long as necessary. So if you provide a DLL as an entry point, it will only run the container as long as it takes that DLL to do it's work and exit. If you provide an end point that is something like a web api, or a continuously running script, then the host will continue to exist. You can tell if a container is still running by using the docker ps command.
 
 ## Docker Context and Docker Compose
 The docker-compose context is very sensitive. It takes whatever folder you provide as context in the yaml and passes it to the docker daemon.

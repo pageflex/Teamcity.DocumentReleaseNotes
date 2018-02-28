@@ -30,7 +30,16 @@ Based on dot net core 2, this app shares the business layer with the API, and ru
 
 There is a lot of data that can be mined from Teamcity, but it requires pretty distinct knowledge of the Teamcity API. We've encapsulated a lot of that information into our own API to make it simpler to gather the knowledge in one fell swoop. The API is Dot Net Core 2 built and subsequently hosted in a linux docker image. In the API itself, There are methods to just gather data, and also a method that generates the documents needed by Raneto to power the release notes website.
 
-TODO: Put all the methods here
+**Settings API**
+
+* api/Settings/GetConfiguredProjects [GET] - Get all projects ids that are configured for building their change notes
+
+**ReleaseNotes API**
+
+* api/ReleaseNotes/Create [GET] - Start the whole process of creating the change notes.
+* api/ReleaseNotes/GetConfigured [GET] - Check which projects are configured for release note creation.
+* api/ReleaseNotes/Project/{ProjectName} [GET] - Gets all the Release notes in json format for a given projects build types.
+* api/ReleaseNotes/BuildType/{BuildType} [GET] - Gets Release notes in json format for a given build type
 
 ### Chron Job Container/Image
 
